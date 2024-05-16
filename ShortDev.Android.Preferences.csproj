@@ -7,7 +7,7 @@
 		<ManagePackageVersionsCentrally>false</ManagePackageVersionsCentrally>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="Xamarin.AndroidX.Preference" Version="1.2.1.2" />
-		<PackageReference Include="Xamarin.Google.Android.Material" Version="1.10.0.1" />
+		<PackageReference Include="Xamarin.AndroidX.Preference" Version="1.2.1.5" />
+		<PackageReference Include="Xamarin.Google.Android.Material" Version="1.10.0.4" />
 	</ItemGroup>
 </Project>
