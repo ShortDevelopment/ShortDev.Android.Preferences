@@ -26,6 +26,7 @@
         <item name="switchPreferenceStyle">@style/SettingsSwitchPreference.SettingsLib</item>
         <item name="seekBarPreferenceStyle">@style/SettingsSeekbarPreference.SettingsLib</item>
         <item name="footerPreferenceStyle">@style/Preference.Material</item>
+		<item name="switchPreferenceCompatStyle">@style/SettingsSwitchPreferenceCompat.SettingsLib</item>
     </style>
 
     <style name="SettingsCategoryPreference.SettingsLib" parent="@style/Preference.Category.Material">
@@ -64,4 +65,8 @@
     <style name="SettingsSeekbarPreference.SettingsLib" parent="@style/Preference.SeekBarPreference.Material">
         <item name="iconSpaceReserved">@bool/settingslib_config_icon_space_reserved</item>
     </style>
+
+	<style name="SettingsSwitchPreferenceCompat.SettingsLib" parent="@style/Preference.SwitchPreferenceCompat.Material">
+		<item name="android:widgetLayout">@layout/preference_widget_material_switch</item>
+	</style>
 </resources>
