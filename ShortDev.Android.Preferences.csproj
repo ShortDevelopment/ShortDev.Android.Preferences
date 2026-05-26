@@ -8,6 +8,6 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Xamarin.AndroidX.Preference" Version="1.2.1.17" />
-		<PackageReference Include="Xamarin.Google.Android.Material" Version="1.13.0.2" />
+		<PackageReference Include="Xamarin.Google.Android.Material" Version="1.14.0" />
 	</ItemGroup>
 </Project>
